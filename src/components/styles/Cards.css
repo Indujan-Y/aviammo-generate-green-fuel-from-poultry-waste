@@ -1,0 +1,19 @@
+.cards-content-wrapper {
+    width: 50%;
+}
+.censor-readings .censor-readings-title{
+    font-size: 45px;
+    text-align: left;
+    font-weight: 900;
+    width: 100%;
+
+}
+
+.censor-values {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 2em;
+}

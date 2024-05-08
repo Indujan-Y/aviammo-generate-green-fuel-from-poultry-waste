@@ -1,0 +1,47 @@
+.Moisture-card{
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid #000000; */
+    border-radius: 45px;
+    background-color: #74ddc9;
+    padding: 1em 2em;
+}
+
+.Moisture-card .title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Moisture-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Moisture-card-content  .left-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 32px;
+   
+}
+
+.Moisture-card-content .content {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+
+.Moisture-card-content .content span{
+    font-size: 40px;
+}
+.Moisture-card-content .right-content {
+    font-size: 60px;
+    color: black;
+    opacity: 0.4;
+}

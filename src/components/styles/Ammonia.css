@@ -1,0 +1,39 @@
+.ammonia-card {
+    padding: 2em 2em 0em 2em;
+    background-color: #6d41a4;
+    color: whitesmoke;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ammonia-card .title {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.ammonia-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.ammonia-card-content .left-content span{
+    font-size: 30px;
+}
+
+.ammonia-card-content .right-content {
+    font-size: 60px;
+    color: black;
+    opacity: 0.4;
+}

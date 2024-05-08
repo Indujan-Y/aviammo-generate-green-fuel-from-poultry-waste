@@ -1,0 +1,30 @@
+.navbar-wrapper {
+    /* height: 80px; */
+    background-color: #7d7d7d;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-segment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-segment a {
+    text-decoration-line: none;
+}
+
+.profile-segment a h2 {
+    color: #ffffff;
+}
+
+.profile-segment img {
+    height: 55px;
+    border-radius: 50%;
+}
